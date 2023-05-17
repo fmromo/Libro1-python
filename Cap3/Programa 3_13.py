@@ -18,5 +18,7 @@ color = color.lower()
 aroma = aroma.lower()
 if color == 'dorado' and aroma == 'suave' and pesada:
     print('\nLa fruta está madura. ¡Lista para comerse!')
+    print(pesada)
 else:
     print('\nLa fruta no está madura o ya se pasó.')
+    print(pesada)
